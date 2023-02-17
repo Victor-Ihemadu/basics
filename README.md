@@ -1,3 +1,3 @@
 # basics
 
-This repo contains the basic knowledge and learning of HTML and CSS.
+This repo contains the basic knowledge and building blocks of HTML and CSS.

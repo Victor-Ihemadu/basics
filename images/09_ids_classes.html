@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div, span, id and class</title>
+    <style>
+        .card{
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -16,12 +29,12 @@
         <li><a href="#"></a>About</li>
         <li><a href="#"></a>Contact</li>
     </ul>
-    <div id="about">
+    <div id="about" class="card">
         <h3>About</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo nisi et eveniet vel mollitia incidunt voluptate doloremque quos ad!</p>
+        <p>Lorem ipsum dolor sit amet consectetur <span class="enhance">adipisicing elit. Quisquam nemo nisi et eveniet vel mollitia incidunt voluptate</span>doloremque quos ad</p>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="card">
         <h3>Contact Me</h3>
         <ul>
             <li>Address: No 13 Olufemi Street</li>
@@ -31,7 +44,7 @@
     </div>
 
     <div id="footer">
-        <p>Copyright</p>
+        <p>Copyright &copy 2023</p>
     </div>
 </body>
 </html>
